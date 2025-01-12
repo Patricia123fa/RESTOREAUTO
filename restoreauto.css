@@ -1,0 +1,101 @@
+
+html, body {
+    height: 100%;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    text-align: center;
+    font-family: "Barlow Condensed", serif;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+
+h1{
+
+     font-family: "Barlow Condensed", serif;
+     color: white;
+}
+
+h2 {
+    font-family: "Barlow Condensed", serif;
+    color: white;
+}
+
+h3 {
+    color: white; 
+}
+
+section {
+    background-color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+p{
+    color: grey;
+}
+form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            max-width: 100%;
+            align-content: center;
+        }
+label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+footer .social-icons li a {
+    color: grey;
+}
+ .hover-effect {
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.hover-effect:hover {
+    transform: scale(1.5); /* Aumenta el tamaño de la imagen */
+    position: absolute;
+     z-index: 1;
+}
+span{
+    font-weight: bold;
+}
