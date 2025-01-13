@@ -62,37 +62,37 @@ p{
     color: grey;
 }
 form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            max-width: 100%;
-            align-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+    align-content: center;
         }
 label {
-            font-weight: bold;
-            margin-bottom: 8px;
-            display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
         }
 
 input[type="text"], input[type="email"], input[type="tel"], textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
         }
 footer .social-icons li a {
     color: grey;
 }
  .hover-effect {
-    transition: transform 0.3s ease; /* Transición suave */
+    transition: transform 0.3s ease;
 }
 
 .hover-effect:hover {
-    transform: scale(1.5); /* Aumenta el tamaño de la imagen */
+    transform: scale(1.5);
     position: absolute;
      z-index: 1;
 }
